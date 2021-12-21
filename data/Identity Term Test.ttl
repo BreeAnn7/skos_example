@@ -1,4 +1,4 @@
-@prefix identity: <http://BreeAnn7.github.io/skos_example/> .
+@prefix identity: <https://BreeAnn7.github.io/skos_example/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
