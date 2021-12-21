@@ -12,6 +12,12 @@
   "scopeNote": {
     "en": "Do not hyphenate. When possible, ask people how they identify (Asian American, Chinese American, Japanese American, etc…)"
   },
+  "broader": {
+    "id": "http://BreeAnn7.github.io/skos_example/a0012",
+    "prefLabel": {
+      "en": "Asian"
+    }
+  },
   "exactMatch": [
     {
       "id": "http://vocab.getty.edu/aat/300385962"

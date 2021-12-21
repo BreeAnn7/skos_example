@@ -1,21 +1,29 @@
 {
-  "id": "http://BreeAnn7.github.io/skos_example/a00011",
+  "id": "http://BreeAnn7.github.io/skos_example/a0010",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa00011",
-  "inbox": "https://test.skohub.io/inbox?target=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa00011",
+  "followers": "https://test.skohub.io/followers?subject=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa0010",
+  "inbox": "https://test.skohub.io/inbox?target=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa0010",
   "prefLabel": {
-    "en": "BIPOC"
+    "en": "Autistic spectrum disorder"
   },
   "definition": {
-    "en": "A blanket term for Black, Indigenous, people of color. May also be used by those who identify as Black, Indigenous, or a person of color to show solidarity with other racial or ethnic groups who have been marginalized."
+    "en": "An umbrella term for a group of complex disorders related to brain development."
   },
   "scopeNote": {
-    "en": "This is an umbrella term which should not be assigned to either groups of people or an individual person. Refer to the specific group if possible. e.g. First Nations, African American"
+    "en": "(NCDJ) Opinions vary on how to refer to someone with autism. Some people with autism prefer being referred to as “autistic” or an “autistic person.” Others object to using autistic as an adjective. The Autism Self Advocacy Network details this debate.  NCDJ recommendation is to refer to someone as having autistic spectrum disorder only if the information is relevant to the story and you are confident there is a medical diagnosis. Ask individuals how they prefer to be described."
   },
+  "narrower": [
+    {
+      "id": "http://BreeAnn7.github.io/skos_example/a0012",
+      "prefLabel": {
+        "en": "Asian"
+      }
+    }
+  ],
   "broader": {
-    "id": "http://BreeAnn7.github.io/skos_example/a0002",
+    "id": "http://BreeAnn7.github.io/skos_example/a0009",
     "prefLabel": {
-      "en": "Ethnic Identities"
+      "en": "Neurodivergent"
     }
   },
   "inScheme": {

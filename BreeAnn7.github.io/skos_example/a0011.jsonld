@@ -1,21 +1,29 @@
 {
-  "id": "http://BreeAnn7.github.io/skos_example/a00012",
+  "id": "http://BreeAnn7.github.io/skos_example/a0011",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa00012",
-  "inbox": "https://test.skohub.io/inbox?target=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa00012",
+  "followers": "https://test.skohub.io/followers?subject=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa0011",
+  "inbox": "https://test.skohub.io/inbox?target=skos_example%2FBreeAnn7.github.io%2Fskos_example%2Fa0011",
   "prefLabel": {
-    "en": "Asian"
+    "en": "BIPOC"
   },
   "definition": {
-    "en": "A term as broad as European. In American usage, Asian is generally used to refer to the entire continent of Asia; often, however, Asian is used as shorthand for East Asians, or East and Southeast Asians. (DSG) People living in a general region which encompasses China, India, Indonesia, Bangladesh, Japan, Korea, Philippines, Vietnam, Thailand, Taiwan, Cambodia, Hong Kong, Singapore."
+    "en": "A blanket term for Black, Indigenous, people of color. May also be used by those who identify as Black, Indigenous, or a person of color to show solidarity with other racial or ethnic groups who have been marginalized."
   },
   "scopeNote": {
-    "en": "This is an umbrella term which should not be assigned to either groups of people or an individual person. Refer to the specific nationality if possible."
+    "en": "This is an umbrella term which should not be assigned to either groups of people or an individual person. Refer to the specific group if possible. e.g. First Nations, African American"
   },
+  "narrower": [
+    {
+      "id": "http://BreeAnn7.github.io/skos_example/a0012",
+      "prefLabel": {
+        "en": "Asian"
+      }
+    }
+  ],
   "broader": {
-    "id": "http://BreeAnn7.github.io/skos_example/a0009",
+    "id": "http://BreeAnn7.github.io/skos_example/a0002",
     "prefLabel": {
-      "en": "Neurodivergent"
+      "en": "Ethnic Identities"
     }
   },
   "inScheme": {

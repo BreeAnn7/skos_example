@@ -6,20 +6,19 @@
   "prefLabel": {
     "en": "Neurodivergent"
   },
+  "altLabel": {
+    "en": [
+      "Neuroatypical"
+    ]
+  },
   "definition": {
     "en": "A person who is considered part of the normal variation in the human population (NCDJ)"
   },
   "narrower": [
     {
-      "id": "http://BreeAnn7.github.io/skos_example/a00010",
+      "id": "http://BreeAnn7.github.io/skos_example/a0010",
       "prefLabel": {
         "en": "Autistic spectrum disorder"
-      }
-    },
-    {
-      "id": "http://BreeAnn7.github.io/skos_example/a00012",
-      "prefLabel": {
-        "en": "Asian"
       }
     }
   ],

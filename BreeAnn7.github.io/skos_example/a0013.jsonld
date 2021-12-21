@@ -17,6 +17,12 @@
   "scopeNote": {
     "en": "This is an umbrella term which should not be assigned to either groups of people or an individual person. Refer to the specific nationality if possible."
   },
+  "broader": {
+    "id": "http://BreeAnn7.github.io/skos_example/a0012",
+    "prefLabel": {
+      "en": "Asian"
+    }
+  },
   "inScheme": {
     "id": "http://BreeAnn7.github.io/skos_example/",
     "title": {
