@@ -15,12 +15,15 @@ identity: a skos:ConceptScheme ;
 identity:a0001 a skos:Concept ;
     skos:prefLabel "Ability Status"@en ;
     skos:definition "Referring to whether or not someone has a disability, physical or mental. (NCDJ)"@en ;
+	skos:narrower identity:a0006 ;
+	skos:narrower identity:a0007 ;
 	skos:scopeNote "Do not use for tagging or annotation."@en ;
     skos:topConceptOf identity: .
 
 identity:a0002 a skos:Concept ;
     skos:prefLabel "Ethnic Identities"@en ;
     skos:definition "One way in which a group of people identify themselves as part of a larger group based on ancestral origin and/or skin color. Ethnicity, like race, is a socially constructed idea. (Incluseum)"@en ;
+	skos:narrower identity:a00011 ;
 	skos:scopeNote "Do not use for tagging or annotation."@en ;
     skos:topConceptOf identity: .  
 
@@ -56,6 +59,8 @@ identity:a0007 a skos:Concept ;
     skos:definition "The range of differences in individual brain function and behavioral traits, regarded as part of the normal variation in the human population. (NCDJ)"@en ;
 	skos:scopeNote "Do not use for tagging or annotation. This is an umbrella term which should NOT be assigned to either groups of people or an individual person."@en ;
 	skos:broader identity:a0001 ;
+	skos:narrower identity:a0008 ;
+	skos:narrower identity:a0009 ;
     skos:inScheme identity: .
 
 identity:a0008 a skos:Concept ;
@@ -69,6 +74,7 @@ identity:a0009 a skos:Concept ;
 	skos:altLablel "Neuroatypical"@en ;
     skos:definition "A person who is considered part of the normal variation in the human population (NCDJ)"@en ;
 	skos:broader identity:a0007 ;
+	skos:narrower identity:a0010 ;
     skos:inScheme identity: .
 
 identity:a00010 a skos:Concept ;
@@ -83,13 +89,16 @@ identity:a00011 a skos:Concept ;
     skos:definition "A blanket term for Black, Indigenous, people of color. May also be used by those who identify as Black, Indigenous, or a person of color to show solidarity with other racial or ethnic groups who have been marginalized."@en ;
 	skos:scopeNote "This is an umbrella term which should not be assigned to either groups of people or an individual person. Refer to the specific group if possible. e.g. First Nations, African American"@en ;
 	skos:broader identity:a0002 ;
+	skos:narrower identity:a0012 ;
     skos:inScheme identity: .
 
 identity:a00012 a skos:Concept ;
     skos:prefLabel "Asian"@en ;
     skos:definition "A term as broad as European. In American usage, Asian is generally used to refer to the entire continent of Asia; often, however, Asian is used as shorthand for East Asians, or East and Southeast Asians. (DSG) People living in a general region which encompasses China, India, Indonesia, Bangladesh, Japan, Korea, Philippines, Vietnam, Thailand, Taiwan, Cambodia, Hong Kong, Singapore."@en ;
 	skos:scopeNote "This is an umbrella term which should not be assigned to either groups of people or an individual person. Refer to the specific nationality if possible."@en ;
-	skos:broader identity:a0009 ;
+	skos:broader identity:a0010 ;
+	skos:narrower identity:a0013 ;
+	skos:narrower identity:a0014 ;
     skos:inScheme identity: .
 
 identity:a0013 a skos:Concept ;
